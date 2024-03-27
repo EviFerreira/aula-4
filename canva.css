@@ -1,0 +1,17 @@
+body{
+    text-align: center;
+    background-image: url(surfe-eclipse-italo-ferreira-1.avif);
+    background-position: center;
+    background-size: cover;
+ 
+}
+h1{
+color:black;
+}
+#mycanvas{
+    background-color: chocolate;
+    border-radius: 30px;
+    border-width: 5px;
+    border-color: black;
+    color: aqua;
+}

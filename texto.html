@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="canva.css">
+</head>
+<body>
+    <p><h1>Criando Texto de canvas</h1></p>
+    <canvas width="400" height="200" id="myCanvas" style="border: 5px solid blue;" ></canvas>
+    <script type="text/javascript">
+        var canvas=document.getElementById("myCanvas");
+        var ctx=canvas.getContext("2d"); //consulta o canvas
+        ctx.font="50px arial";
+        ctx.color=("black");
+        ctx.strokeText( "Ola mundo",50,100);// cria texto
+        ctx.fillText("Ola,mundo",50,150) ; //finalizar o texto no canva
+    </script>
+    
+
+</body>
+</html>

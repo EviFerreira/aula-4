@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Canvas, criando linhas </title>
+    <link rel="stylesheet" href="canva.css">
+    <!--Links bootstrap-->
+     <link rel="stylesheet" href="">
+     
+</head>
+<body>
+    <h1> Retângulo no canvas </h1></p>
+    <canvas width="400" height="200" id="myCanvas" style="border: 5px solid black;" ></canvas>
+    <script type="text/javascript">
+    var canvas = document.getElementById("myCanvas");
+    var ctx=canvas.getContext("2d"); //consulta o canvas
+    ctx.fillStyle="white"; //cor de retangulo
+    ctx.fillRect(140,50,150,100); // cria o retangulo
+    </script>
+    
+</body>
+</html>
